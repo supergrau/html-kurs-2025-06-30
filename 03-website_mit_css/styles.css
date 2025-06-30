@@ -1,0 +1,28 @@
+/*
+  Styles für meine erste Web-Site 
+*/
+
+
+/* Farbe für das body-Element: */
+body {
+    background-color:beige;
+    color:black;
+}
+
+header {
+    background-color: steelblue;
+    color:white;
+    padding: 1em;
+}
+
+/*
+Aufbau einer CSS-Regel
+selektor {
+    eigenschaft: wert;
+    eigenschaft: wert;
+    eigenschaft: wert;
+    eigenschaft: wert;
+    eigenschaft: wert;
+}
+
+*/
