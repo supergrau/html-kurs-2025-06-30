@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weitere Formularelemente</title>
+</head>
+<body>
+    <header>
+        <h1>Weitere Formularelemente</h1>
+    </header>
+    <main>
+        <form action="#">
+            <!-- Elementgruppierung -->
+            <fieldset>
+                <legend>Personliche Daten:</legend>
+                <p>
+                    <label for="nachname">Nachname:</label><br>
+                    <input type="text" size="30" name="nachname" id="nachname" required>
+                </p>
+                <p>
+                    <label for="vorname">Vorname:</label><br>
+                    <input type="text" size="30" name="vorname" id="vorname">
+                </p>
+                    <label for="e_mail">E-Mail:</label><br>
+                    <input type="email" size="30" name="e_mail" id="e_mail">
+
+                <p>
+
+                </p>
+                <!-- Weitere Felder wie Adresse, Telefonnummer -->
+            </fieldset>
+
+            <fieldset>
+                <legend>Zahlungsmethode:</legend>
+                <p>
+                    <input type="radio" name="zahlungsmethode" id="zahlungsmethode1" checked="checked">
+                    <label for="zahlungsmethode1">PayPal</label><br>
+                    <input type="radio" name="zahlungsmethode" id="zahlungsmethode2">
+                    <label for="zahlungsmethode1">Bankeinzug</label><br>
+                    <input type="radio" name="zahlungsmethode" id="zahlungsmethode3">
+                    <label for="zahlungsmethode1">Vorkasse</label><br>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Einzugsdatum:</legend>
+                <p>
+                    <label for="datum">Datum:</label><br>
+                    <input type="date" name="datum" id="datum">
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" onclick="alert('Verstehnix')">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
