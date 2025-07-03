@@ -5,10 +5,10 @@
 .container {
     display: flex;
 }
+
 header {
     color:#fff;
     background-color: black;
-    margin: 0 auto;
     padding: 2em;
     position: sticky;
     top:0;
