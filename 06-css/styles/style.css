@@ -1,0 +1,40 @@
+body {
+    margin:0;
+}
+
+header {
+    color:#fff;
+    background-color: black;
+    margin: 0 auto;
+    padding: 2em;
+    position: sticky;
+    top:0;
+}
+
+nav.hauptnavi {
+    padding:2em;
+    background-color: aqua;
+
+}
+
+nav.linke_spalte {
+    width: 20%;
+    background-color: blueviolet;
+    float:left;
+    padding: 2em;
+}
+
+main {
+    width: 60%;
+    
+}
+
+aside {
+   
+    float:right;
+    background-color:chocolate;
+}
+
+footer {
+
+}
