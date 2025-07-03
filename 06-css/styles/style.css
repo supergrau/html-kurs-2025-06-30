@@ -1,7 +1,10 @@
-body {
+* {
     margin:0;
 }
 
+.container {
+    display: flex;
+}
 header {
     color:#fff;
     background-color: black;
@@ -26,15 +29,17 @@ nav.linke_spalte {
 
 main {
     width: 60%;
-    
+    background-color: darkgoldenrod;
+    padding: 2em;
 }
 
 aside {
-   
-    float:right;
+    padding: 2em;    
     background-color:chocolate;
 }
 
 footer {
-
+    background-color: darkolivegreen;
+    text-align: right;
+    padding: 0.2em;
 }
